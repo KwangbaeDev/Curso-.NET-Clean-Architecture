@@ -17,10 +17,9 @@ public sealed class Customer : AggregateRoot
     }
 
     private Customer()
-    {
-
+    { 
     }
-    
+
     public CustomerId Id { get; private set; }
     public string FirstName { get; private set; }
     public string LastName { get; set; }
